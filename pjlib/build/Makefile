@@ -33,7 +33,7 @@ export PJLIB_SRCDIR = ../src/pj
 export PJLIB_OBJS += $(OS_OBJS) $(M_OBJS) $(CC_OBJS) $(HOST_OBJS) \
 	activesock.o array.o config.o ctype.o errno.o except.o fifobuf.o \
 	guid.o hash.o ip_helper_generic.o list.o lock.o log.o os_time_common.o \
-	os_info.o pool.o pool_buf.o pool_caching.o pool_dbg.o rand.o \
+	os_info.o pool.o pool_slot.o pool_buf.o pool_caching.o pool_dbg.o rand.o \
 	rbtree.o sock_common.o sock_qos_common.o \
 	ssl_sock_common.o ssl_sock_ossl.o ssl_sock_gtls.o ssl_sock_dump.o \
 	ssl_sock_darwin.o string.o timer.o types.o
